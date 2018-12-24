@@ -29,4 +29,8 @@ function play() {
 		case 13: $("#body-part").html("Penis"); break;
 		default: $("#body-part").html("error"); break;
 	}
+
+	// Make both action and body part elements visible
+	$("#action").attr("style", "display: table-cell;");
+	$("#body-part").attr("style", "display: table-cell;");
 }
