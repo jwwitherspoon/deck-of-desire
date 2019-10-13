@@ -6,7 +6,7 @@ function play() {
 	// Display action
 	switch (action) {
 		case 1: $("#action").html("Kiss"); break;
-		case 2: $("#action").html("Tickle"); break;
+		case 2: $("#action").html("Caress"); break;
 		case 3: $("#action").html("Lick"); break;
 		case 4: $("#action").html("Rub"); break;
 		default: $("#action").html("error"); break;
